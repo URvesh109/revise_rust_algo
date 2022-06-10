@@ -50,7 +50,7 @@ fn bucket_sort(arr: &[usize]) -> Vec<usize> {
 
 fn main() {
 
-    let mut vec = vec![9,4,6,2,5,3,17];
+    let mut vec = vec![19,4,6,2,5,3,17];
     vec = bucket_sort(&mut vec);
     println!("{vec:#?}");
 }
